@@ -1,6 +1,9 @@
 import React, { useState, useContext } from 'react';
 import { AuthContext } from '../../contexts/AuthContext';
+<<<<<<< HEAD
 
+=======
+>>>>>>> 471331d1b4b52187a540dfd0f06a3588d0999f5a
 import {
     Collapse,
     Navbar,
@@ -18,7 +21,11 @@ import {
 
 const Navigation = (props) => {
     const [isOpen, setIsOpen] = useState(false);
+<<<<<<< HEAD
     const { token } = useContext(AuthContext);
+=======
+    const {token} = useContext(AuthContext);
+>>>>>>> 471331d1b4b52187a540dfd0f06a3588d0999f5a
 
     
     const toggle = () => setIsOpen(!isOpen);
